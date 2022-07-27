@@ -1,0 +1,32 @@
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+}
+.card {
+  width: 50%;
+  min-height: 80vh;
+  background-color: rgb(200, 209, 231);
+}
+
+td{
+  font-size: larger;
+}
+
+img{
+  width: 40%;
+  margin: 5px auto;
+  display: block;
+
+}
+.darkMode{
+  background-color:rgba(0, 0, 0, 0.637);
+}
+.darkWrapper{
+  background-color:rgba(0, 0, 0, 0.604)
+}
+@media only screen and (max-width:576px) {
+  .card {
+    width: 95%;
+    min-height: 98vh;
+  }
+}
